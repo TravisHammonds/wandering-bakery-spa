@@ -3,7 +3,6 @@ const { PORT = 5000 } = process.env;
 
 // Require the Express application and assign it to a variable named app.
 const app = require("./app");
-const knex = require("./db/connection");
 
 // Create a listener that logs a message to the console when the server is running.
 const listener = () => console.log(`Listening on Port ${PORT}!`);
